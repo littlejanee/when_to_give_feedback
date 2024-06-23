@@ -1,0 +1,4 @@
+./latest/polotno-studio/node-modules
+*.DS_Store
+build/
+node_modules

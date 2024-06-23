@@ -1,0 +1,74 @@
+{
+  "name": "polotno-studio",
+  "version": "0.1.1",
+  "author": "Anton Lavrenov",
+  "description": "Free design editor",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/popover2": "^2.1.5",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@meronex/icons": "^4.0.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "bootstrap-toggle": "^2.2.2",
+    "firebase": "^9.9.4",
+    "immer": "^9.0.15",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "polotno": "^2.9.7",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-collapsible": "^2.10.0",
+    "react-colorful": "^5.5.1",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "react-use": "^17.4.0",
+    "simple-statistics": "^7.7.5",
+    "typescript": "^4.7.3",
+    "unstated-next": "^1.1.0"
+  },
+  "main": "src/index.tsx",
+  "hardenedRuntime": true,
+  "gatekeeperAssess": false,
+  "homepage": ".",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "type-check": "tsc --noEmit",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@types/lodash": "^4.14.182",
+    "@types/react-copy-to-clipboard": "^5.0.2",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "googleapis": "^105.0.0",
+    "prettier": "^2.7.1"
+  }
+}
